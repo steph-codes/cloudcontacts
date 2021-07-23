@@ -1,0 +1,90 @@
+
+Idv4WB1uLF6C5glthStrhoRKuFaarmUrfsRUjl0Ghy7RloLQW6p6bQYGfT1ruuxaouLrOeARRs3EucdzslkvIYn85uhbPSBbZpMH
+
+TEsts secret
+sk_test_67c2b4cb50d585d1992b576991862e17bdd9fb1e
+
+test public
+pk_test_ceae9b8ad322dab1fa72698f2531f4b2bb951681
+
+//json response.
+array(2) { ["trxref"]=> string(10) "cc30akocov" ["reference"]=> string(10) "cc30akocov" }
+{
+  "status": true,
+  "message": "Verification successful",
+  "data": {
+    "id": 1015032623,
+    "domain": "test",
+    "status": "success",
+    "reference": "cc30akocov",
+    "amount": 2760000,
+    "message": null,
+    "gateway_response": "Successful",
+    "paid_at": "2021-02-25T10:49:45.000Z",
+    "created_at": "2021-02-25T10:49:34.000Z",
+    "channel": "card",
+    "currency": "NGN",
+    "ip_address": "197.210.8.180",
+    "metadata": "",
+    "log": {
+      "start_time": 1614250177,
+      "time_spent": 9,
+      "attempts": 1,
+      "errors": 0,
+      "success": true,
+      "mobile": false,
+      "input": [],
+      "history": [
+        {
+          "type": "action",
+          "message": "Attempted to pay with card",
+          "time": 8
+        },
+        {
+          "type": "success",
+          "message": "Successfully paid with card",
+          "time": 9
+        }
+      ]
+    },
+    "fees": 51400,
+    "fees_split": null,
+    "authorization": {
+      "authorization_code": "AUTH_wzmu5qnysr",
+      "bin": "408408",
+      "last4": "4081",
+      "exp_month": "12",
+      "exp_year": "2030",
+      "channel": "card",
+      "card_type": "visa ",
+      "bank": "TEST BANK",
+      "country_code": "NG",
+      "brand": "visa",
+      "reusable": true,
+      "signature": "SIG_ztUhPlZby9Ui4e5S77A7",
+      "account_name": null
+    },
+    "customer": {
+      "id": 40078354,
+      "first_name": null,
+      "last_name": null,
+      "email": "ogundele370@gmail.com",
+      "customer_code": "CUS_pgr1va4ppapm40n",
+      "phone": null,
+      "metadata": null,
+      "risk_action": "default",
+      "international_format_phone": null
+    },
+    "plan": null,
+    "split": {},
+    "order_id": null,
+    "paidAt": "2021-02-25T10:49:45.000Z",
+    "createdAt": "2021-02-25T10:49:34.000Z",
+    "requested_amount": 2760000,
+    "pos_transaction_data": null,
+    "transaction_date": "2021-02-25T10:49:34.000Z",
+    "plan_object": {},
+    "subaccount": {}
+  }
+}
+
